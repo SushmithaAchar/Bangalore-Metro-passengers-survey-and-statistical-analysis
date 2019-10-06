@@ -1,0 +1,23 @@
+###regression model where regular travelling is predicted with the rate of satisfaction
+model1<-lm(satisfied~reg.trans+how.oft-1, data = mydata);model1
+summary(model1)
+
+###chi square test to test the association between reason and travelling often in metro
+###i.e. is travelling often in metro is dependant on the reason why people choose metro
+###ho=there is an association between reason and travelling often i.e. trav = reason
+###h1=there is no association i.e. trav =! reason
+chisq.test(table(trav.oft, reason))
+
+###to test the strenth of association between how often people travel in metro 
+###and how satisfied they are with metro
+###but it is negatively correlated which means that how often is independent of satisfaction
+cor.test(satisfied, how.oft)
+
+###t test
+###h0=mean of regular travel of students is equal to mean of regular travel of employees
+###the results says reject the h0 as p value is less than 0.05 and 
+###conclude that the means of two samples are not equal
+random<-sample_n(mydata, 29)
+student<-random$reg.trans[random$Occupation=="student"]
+employed<-random$reg.trans[random$Occupation=="Employed"]
+t.test(student,employed,alternative = "two.sided",var.equal = FALSE,conf.level=0.95)
