@@ -1,0 +1,129 @@
+Age,Gender,Occupation,Is metro your regular mode of transport?,Do you travel in metro very often?,How often you travel in metro?,The reason why you prefer metro over other modes of transport,Is metro helpful in reducing traffic in bengaluru?,Are you okay with the effect of construction of metro on environment?,"How satisfied are you with ""Namma Metro""?"
+22,1,student,No,Maybe,2,Frequent metro trains,Maybe,2,4
+21,0,student,No,Yes,2,It's quick,Yes,3,3
+21,1,student,No,No,1,It's quick,Yes,3,4
+21,0,student,No,Yes,3,It's quick,Yes,3,4
+20,1,student,No,No,1,It's quick,Maybe,3,4
+23,1,student,No,No,3,It's quick,Yes,1,3
+22,0,student,Yes,Maybe,3,It's quick,Maybe,4,5
+19,1,student,No,Maybe,5,It's quick,Yes,2,3
+21,0,Employed,No,Yes,2,It's quick,Yes,2,5
+22,0,student,No,Yes,3,It's quick,Maybe,0,4
+21,1,student,No,No,0,It's quick,Maybe,0,3
+22,0,Employed,No,Yes,4,It's quick,Yes,4,4
+22,1,Employed,No,Yes,3,It's quick,Yes,4,4
+17,0,student,No,Maybe,2,It's facilities,Yes,2,2
+22,0,student,No,Maybe,1,It's quick,No,2,3
+22,1,student,No,Yes,3,It's quick,Maybe,0,4
+23,1,Home maker,Yes,Maybe,3,It's quick,Yes,5,5
+17,1,student,No,Yes,5,It's quick,Yes,2,3
+24,0,Employed,No,Yes,5,It's quick,Maybe,5,5
+22,1,student,No,No,2,It's quick,Yes,3,5
+21,0,student,No,Yes,2,It's quick,Yes,0,3
+22,0,student,No,Maybe,3,It's quick,Yes,4,5
+25,1,Employed,No,Yes,3,It's facilities,Yes,0,3
+20,0,student,No,Maybe,5,Frequent metro trains,Yes,5,5
+21,0,Employed,No,Yes,3,It's quick,Yes,3,5
+23,1,student,No,Yes,3,Frequent metro trains,Yes,3,4
+22,1,Employed,No,Maybe,2,It's quick,Yes,0,2
+20,1,student,Yes,Yes,5,It's quick,Yes,5,5
+21,0,Employed,Yes,Maybe,3,It's quick,Yes,3,4
+21,0,Employed,No,Yes,2,It's quick,Yes,3,4
+22,1,student,No,Maybe,3,It's quick,Yes,1,4
+22,1,Employed,Yes,Yes,5,It's clean,Yes,5,5
+22,0,student,No,Yes,2,It's quick,Maybe,2,3
+25,1,Employed,Yes,Yes,1,It's quick,Yes,5,5
+19,0,Home maker,No,Yes,0,It's clean,Yes,2,1
+21,1,student,No,No,4,It's quick,Yes,0,5
+19,0,student,No,Maybe,2,It's quick,Yes,1,5
+20,0,Employed,Yes,Yes,3,It's quick,Yes,3,5
+21,1,student,No,No,2,It's quick,No,3,4
+21,1,Employed,Yes,No,2,It's quick,Yes,5,4
+21,1,Employed,Yes,Yes,3,It's quick,Yes,0,5
+21,1,student,No,Maybe,2,It's quick,No,2,5
+21,0,Employed,Yes,Yes,5,It's quick,Yes,4,4
+21,0,Home maker,Yes,Yes,5,It's quick,Yes,5,5
+22,1,Employed,No,Yes,1,It's quick,Yes,4,5
+20,0,student,No,Maybe,1,It's quick,Yes,0,3
+24,0,Employed,Yes,Yes,5,It's quick,Yes,3,4
+20,1,student,No,Yes,4,It's quick,Yes,2,5
+54,1,Employed,Yes,Yes,4,It's quick,Yes,5,5
+20,0,student,Yes,Yes,4,It's quick,Yes,3,5
+21,1,student,No,No,2,It's facilities,Yes,1,4
+21,1,student,No,Maybe,2,It's quick,Yes,2,4
+21,0,student,No,No,0,It's quick,Maybe,5,2
+21,0,student,No,Maybe,2,It's quick,Yes,5,5
+21,1,student,Yes,Yes,4,It's quick,Yes,4,5
+27,0,Home maker,No,Maybe,2,It's quick,Yes,1,2
+21,1,Employed,No,Yes,2,It's facilities,Yes,3,5
+23,0,Home maker,No,Yes,2,It's quick,Yes,4,4
+21,0,Employed,No,No,0,It's quick,Yes,0,3
+21,0,student,Yes,No,4,It's quick,Yes,4,4
+21,1,student,No,Maybe,3,It's quick,Maybe,3,5
+25,1,Businessmen,No,No,1,It's facilities,No,1,4
+20,0,student,No,No,0,It's quick,Yes,2,3
+21,1,student,Yes,Yes,5,It's quick,Maybe,2,4
+22,1,student,No,Yes,5,It's quick,Maybe,5,5
+21,0,student,No,Maybe,2,It's facilities,Maybe,2,5
+21,1,student,No,No,0,It's quick,Yes,3,4
+21,0,student,Yes,Yes,4,It's quick,Yes,3,4
+35,0,Employed,No,Yes,2,It's quick,Yes,5,4
+29,1,Businessmen,No,No,2,It's quick,Yes,3,4
+21,0,student,No,Maybe,0,It's quick,Yes,0,3
+23,1,student,No,No,1,It's clean,Yes,5,5
+24,0,Home maker,Yes,Yes,4,It's quick,Yes,3,4
+21,0,student,No,Yes,1,It's quick,Yes,2,3
+23,1,Employed,No,Yes,2,It's quick,No,1,3
+46,0,Employed,Yes,Yes,4,It's inexpensive,Yes,4,4
+35,1,Businessmen,No,No,1,It's clean,Maybe,1,3
+22,1,student,No,No,1,It's quick,Yes,0,4
+22,1,student,No,No,1,It's quick,Maybe,2,4
+34,0,Employed,No,No,1,It's facilities,Yes,3,3
+19,1,Employed,No,Maybe,2,It's clean,Yes,0,5
+21,0,student,Yes,Yes,5,It's facilities,No,4,5
+19,0,Employed,No,Maybe,2,It's clean,Yes,0,5
+22,1,Employed,No,Yes,3,It's quick,Maybe,3,4
+22,0,student,No,Yes,3,It's quick,Yes,2,3
+21,1,Employed,No,Maybe,1,Frequent metro trains,Maybe,1,3
+22,1,student,No,No,1,It's quick,Yes,4,4
+22,0,student,No,No,1,It's quick,Yes,2,4
+20,0,student,No,Maybe,2,It's quick,Yes,3,4
+25,1,Home maker,No,No,0,It's facilities,Yes,0,3
+38,0,Employed,Yes,Yes,4,It's clean,Maybe,2,5
+33,1,Home maker,No,Maybe,2,It's facilities,Yes,1,3
+51,0,Employed,Yes,Yes,5,It's inexpensive,Yes,5,5
+44,0,Businessmen,No,No,1,It's facilities,Maybe,2,5
+58,1,Employed,Yes,Yes,5,It's quick,Yes,5,5
+39,1,Employed,No,Maybe,2,It's facilities,Maybe,0,3
+21,0,Employed,Yes,Yes,3,It's clean,Yes,3,4
+25,0,Home maker,No,No,0,It's facilities,Yes,0,3
+21,1,student,No,No,0,It's quick,Yes,3,3
+30,1,Employed,Yes,Yes,5,Frequent metro trains,Yes,5,5
+35,1,Employed,No,Maybe,3,It's inexpensive,No,4,4
+31,0,Employed,Yes,Yes,5,It's inexpensive,Maybe,5,5
+48,0,Employed,No,Maybe,2,It's inexpensive,Maybe,3,4
+22,0,student,No,Yes,3,It's inexpensive,Yes,3,5
+22,1,Employed,No,Yes,3,Frequent metro trains,Yes,0,5
+25,0,Businessmen,No,Maybe,3,It's quick,Yes,0,2
+31,1,Home maker,No,No,2,It's clean,Yes,4,4
+28,0,Employed,Yes,Maybe,0,It's quick,Maybe,1,4
+31,0,Home maker,No,Yes,5,It's inexpensive,Yes,0,5
+31,1,Businessmen,No,Yes,5,It's facilities,Yes,2,5
+38,0,Employed,Yes,Yes,5,It's inexpensive,Yes,5,5
+36,1,Employed,Yes,Yes,5,It's quick,Maybe,4,5
+27,0,Home maker,No,Maybe,2,It's clean,Maybe,3,3
+45,1,Employed,Yes,Yes,5,Frequent metro trains,Yes,5,5
+30,1,Employed,Yes,Yes,5,It's quick,Yes,3,5
+33,0,Employed,Yes,Yes,5,It's inexpensive,Yes,4,5
+31,0,Employed,No,Maybe,3,It's quick,Yes,3,4
+36,0,Businessmen,No,No,2,Frequent metro trains,Yes,3,3
+31,1,Employed,Yes,Yes,4,It's quick,Maybe,3,4
+40,0,Businessmen,No,No,0,It's quick,No,0,3
+22,0,student,Yes,No,0,It's quick,Yes,0,4
+22,1,student,Yes,No,0,It's quick,Yes,0,4
+30,1,Employed,Yes,Yes,5,It's inexpensive,Maybe,5,5
+21,0,student,No,No,0,It's inexpensive,No,2,2
+20,1,student,Yes,Maybe,3,It's clean,Maybe,3,3
+21,0,student,No,No,1,It's quick,Yes,3,4
+22,1,student,No,No,3,It's quick,Yes,4,4
+21,0,student,No,Maybe,3,It's quick,Yes,2,5
