@@ -1,0 +1,12 @@
+### data visualization
+ggplot(mydata, aes(Age, fill=Gender))+geom_bar()+ggtitle("Age and gender")
+
+ggplot(mydata, aes(Gender, fill=Occupation))+geom_bar()
+
+ggplot(mydata, aes(Age, Occupation))+geom_raster(aes(fill=redu.traf))
+
+ggplot(mydata, aes(reason))+geom_histogram(binwidth = 0.5, stat = "count")
+
+ggplot(mydata, aes(Occupation, how.oft))+geom_raster(aes(fill=effect))
+
+ggplot(mydata, aes(satisfied))+geom_histogram(binwidth = 0.5)
