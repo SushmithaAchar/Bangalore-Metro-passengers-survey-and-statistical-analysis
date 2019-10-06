@@ -1,0 +1,72 @@
+dt=read.csv("metrosurvey.csv")
+
+dt$Gender[dt$Gender==0]="male"
+dt$Gender[dt$Gender==1]="female"
+
+### changing column names
+colnames(dt)[4]<-"reg.trans"
+colnames(dt)[5]<-"trav.oft"
+colnames(dt)[6]<-"how.oft"
+colnames(dt)[7]<-"reason"
+colnames(dt)[8]<-"redu.traf"
+colnames(dt)[9]<-"effect"
+colnames(dt)[10]<-"satisfied"
+
+###simulation of data to 1000 points
+
+##age
+min(dt$Age)
+max(dt$Age)
+Age=round(runif(1000,min=15,max=60),0);Age
+
+##gender
+Gender=sample(c("female","male"),1000,replace= TRUE,prob=c(0.4921875,0.5078125))
+
+###occupation           
+Occupation=sample(c("Employed","student","Home maker","Businessmen"),1000,replace = TRUE, 
+                  prob = c(0.367,0.477,0.094,0.062))
+
+###reg mode
+reg.trans=sample(c("Yes","No"),1000,replace = TRUE,prob = c(0.703,0.297))
+
+###travell often
+trav.oft=sample(c("Yes","No","Maybe"),1000,replace = TRUE,prob = c(0.461,0.273,0.266))
+
+###how often
+how.oft=sample(c(0,1,2,3,4,5),1000,replace = TRUE,prob = c(0.117,0.141,0.25,0.211,0.094,0.188))
+
+###reason
+reason=sample(c("It's clean","It's quick","It's inexpensive","It's facilities",
+                "Frequent metro trains"),1000,replace = TRUE,
+              prob = c(0.086,0.656,0.086,0.109,0.063))
+###helpred
+redu.traf=sample(c("Yes","No","Maybe"),1000,replace = TRUE,prob = c(0.711,0.07,0.219))
+
+##areuok
+effect=sample(c(0,1,2,3,4,5),1000,replace = TRUE,prob = c(0.18,0.86,0.18,0.258,0.133,0.164))
+
+##satisf
+satisfied=sample(c(1,2,3,4,5),1000,replace = TRUE,prob = c(0.008,0.047,0.219,0.352,0.375))
+
+###binding
+sampl=cbind(Age,Gender,Occupation,reg.trans,trav.oft,how.oft,reason,
+            redu.traf,effect,satisfied);sampl
+
+##final bind 
+df=data.frame(dt)
+sim=data.frame(sampl)
+mydata=rbind(df,sim)
+View(mydata)
+str(mydata)
+
+### changing yes or no to 1 and 0
+mydata$reg.trans<-ifelse(mydata$reg.trans=="Yes",1,0)
+
+### converting data type
+attach(mydata)
+mydata$Age<-as.integer(as.character(mydata$Age))
+mydata$how.oft<-as.integer(as.character(mydata$how.oft))
+mydata$effect<-as.integer(as.character(mydata$effect))
+mydata$satisfied<-as.integer(as.character(mydata$satisfied)) 
+mydata$reg.trans<-as.integer(as.numeric(mydata$reg.trans))
+str(mydata)
