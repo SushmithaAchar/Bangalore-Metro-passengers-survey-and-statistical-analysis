@@ -8,3 +8,6 @@ Statistical models are as follows:
 2]Chi-square test
 3]Correlation test
 4]t-test
+
+
+A sample set 'metrosurvey.csv' of the original dataset has been uploaded.
